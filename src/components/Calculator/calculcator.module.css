@@ -1,0 +1,31 @@
+.input {
+    margin: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0;
+    height: auto;
+    width: 450px;
+}
+
+.calcFrame {
+
+    border-radius: 12px;
+
+    box-shadow: 0 0px 10px rgba(0, 72, 255, 0.8), 0 0 20px rgba(0, 60, 255, 0.6);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    flex-grow: 1;
+    background: linear-gradient(var(--slate-200), var(--slate-200-20))
+
+
+}
+
+.textH1 {
+    font-size: 40px;
+}
+
+.value {
+    font-size: 20px;
+}
