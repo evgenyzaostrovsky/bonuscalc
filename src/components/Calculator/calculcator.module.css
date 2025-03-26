@@ -8,18 +8,16 @@
 }
 
 .calcFrame {
-
     border-radius: 12px;
-
-    box-shadow: 0 0px 10px rgba(0, 72, 255, 0.8), 0 0 20px rgba(0, 60, 255, 0.6);
+    box-shadow: 0 0px 10px rgba(170, 186, 223, 0.8), 0 0 20px rgba(175, 183, 211, 0.6);
     margin: auto;
     padding: 40px;
     text-align: center;
     backdrop-filter: blur(10px);
     flex-grow: 1;
-    background: linear-gradient(var(--slate-200), var(--slate-200-20))
-
-
+    background: linear-gradient(var(--slate-200), var(--slate-200-20));
+    width: auto;
+    height: auto;
 }
 
 .textH1 {
@@ -28,4 +26,33 @@
 
 .value {
     font-size: 20px;
+}
+
+/* Адаптивные стили для различных экранов */
+@media (max-width: 768px) {
+    .calcFrame {
+        padding: 20px;
+    }
+
+    .textH1 {
+        font-size: 28px;
+    }
+
+    .input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .calcFrame {
+        padding: 15px;
+    }
+
+    .textH1 {
+        font-size: 22px;
+    }
+
+    .input {
+        width: 100%;
+    }
 }
